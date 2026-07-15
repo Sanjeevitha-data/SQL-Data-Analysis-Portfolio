@@ -5,3 +5,4 @@ INNER JOIN film
 ON film.film_id = film_actor.film_id
 WHERE first_name = 'Nick'
 AND last_name ='Wahlberg'
+ORDER BY title ASC;
